@@ -31,7 +31,7 @@ func whoAmI(response http.ResponseWriter, r *http.Request) {
 }
 
 func homePage(response http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(response, "Welcome to the Go Web API! Update 003!")
+	fmt.Fprintf(response, "Welcome to the Go Web API! Update 004!")
 	fmt.Println("Endpoint Hit: homePage")
 }
 
